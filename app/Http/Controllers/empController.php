@@ -15,7 +15,7 @@ class empController extends Controller
     public function index()
     {
         $emps = employee::all();
-        dd($emps);
+        //dd($emps);
         return view('pages.empList', compact('emps'));
     }
 

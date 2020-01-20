@@ -10,7 +10,7 @@ class task extends Model
         'name',
         'desc'
     ];
-
+    
     public function employee()
     {
         return $this->belongsTo(Employee::class);
