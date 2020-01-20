@@ -6,7 +6,6 @@
   @foreach ($tasks as $task)
   <li>
     ( {{ $task -> id }} ) {{ $task -> name }} => {{ $task->employee->name }} {{ $task->employee-> lastname }}
-
   </li>
   @endforeach
 </ul>
