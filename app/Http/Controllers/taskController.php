@@ -15,6 +15,7 @@ class taskController extends Controller
     public function index()
     {
         $tasks = task::all();
+        //dd($tasks);
         return view('pages.taskList', compact('tasks'));
     }
 

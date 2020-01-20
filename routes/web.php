@@ -11,6 +11,6 @@
 |
 */
 
-Route::resource('/emp', 'empController');
+Route::get('/emp', 'empController@index');
 
-Route::resource('/task', 'taskController');
+Route::get('/task', 'taskController@index');
